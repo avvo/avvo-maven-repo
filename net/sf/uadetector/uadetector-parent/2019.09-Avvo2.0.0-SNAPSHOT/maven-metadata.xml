@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.sf.uadetector</groupId>
+  <artifactId>uadetector-parent</artifactId>
+  <version>2019.09-Avvo2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20190923.083523</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20190923083523</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2019.09-Avvo2.0.0-20190923.083523-1</value>
+        <updated>20190923083523</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
