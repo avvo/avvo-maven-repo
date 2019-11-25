@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.sf.uadetector",
+    "module": "distribution",
+    "version": "2019.11-Avvo2.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "2uoa6imwvnd4lo4tyo7x2wvn44"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-core",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-resources",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "distribution-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "distribution-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 261,
+          "sha512": "8258871d100370e23a5da8a23e86b5b87748eb7b3272497908f5b9a4da01c6d020330671d8a8c0eb5050f047016a839c74c9653204a9dd2e24091487ad1bc80a",
+          "sha256": "c12c07590c25d8f08be37ac0518f07e2069c945e5fbc09a7c4d77c19f78929b8",
+          "sha1": "4d2c5947ce57748ea28133e9b318d7fb1707d641",
+          "md5": "c836de4b93a484fd91455436f480cf18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-core",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-resources",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "distribution-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "distribution-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 261,
+          "sha512": "8258871d100370e23a5da8a23e86b5b87748eb7b3272497908f5b9a4da01c6d020330671d8a8c0eb5050f047016a839c74c9653204a9dd2e24091487ad1bc80a",
+          "sha256": "c12c07590c25d8f08be37ac0518f07e2069c945e5fbc09a7c4d77c19f78929b8",
+          "sha1": "4d2c5947ce57748ea28133e9b318d7fb1707d641",
+          "md5": "c836de4b93a484fd91455436f480cf18"
+        }
+      ]
+    }
+  ]
+}

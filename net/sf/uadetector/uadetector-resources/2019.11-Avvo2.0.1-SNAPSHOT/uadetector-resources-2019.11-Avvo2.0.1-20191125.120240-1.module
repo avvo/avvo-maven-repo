@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.sf.uadetector",
+    "module": "uadetector-resources",
+    "version": "2019.11-Avvo2.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "2uoa6imwvnd4lo4tyo7x2wvn44"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-core",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uadetector-resources-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "uadetector-resources-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 108512,
+          "sha512": "49cb31c1e80e8ac38e1a9db8693f172e5e477b529daa2bc836ec51f8fb00eba65d77c91de92f2a66641e515f67579950979bfc5593223c8b11e1d0afa284cfb0",
+          "sha256": "efd144158b04c2231519789e167bc0206b3b97cbeddf59dea0f7617010faecf1",
+          "sha1": "ad3f5664066876af848515df752e7b790c01112e",
+          "md5": "7e7422959e8f45f80eff603488e23384"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-core",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uadetector-resources-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "uadetector-resources-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 108512,
+          "sha512": "49cb31c1e80e8ac38e1a9db8693f172e5e477b529daa2bc836ec51f8fb00eba65d77c91de92f2a66641e515f67579950979bfc5593223c8b11e1d0afa284cfb0",
+          "sha256": "efd144158b04c2231519789e167bc0206b3b97cbeddf59dea0f7617010faecf1",
+          "sha1": "ad3f5664066876af848515df752e7b790c01112e",
+          "md5": "7e7422959e8f45f80eff603488e23384"
+        }
+      ]
+    }
+  ]
+}

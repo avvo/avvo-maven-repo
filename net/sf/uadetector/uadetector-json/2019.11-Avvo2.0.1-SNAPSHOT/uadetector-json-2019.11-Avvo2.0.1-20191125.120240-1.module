@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.sf.uadetector",
+    "module": "uadetector-json",
+    "version": "2019.11-Avvo2.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "2uoa6imwvnd4lo4tyo7x2wvn44"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.qualitycheck",
+          "module": "quality-check",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-core",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uadetector-json-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "uadetector-json-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 344236,
+          "sha512": "345ed8b4c15dab78335489eac800e37b8353b2778ce13b1de87b19beab11fa1ced8d58ae4ecdcd9cb42f7e7951d246c0550f8815e97399cd3832151c0215c47",
+          "sha256": "e3bfbd96d24e80a9a4bebc6e6937edf2d1d878552807394bee6929df76cb6a9f",
+          "sha1": "8e9b66e50cf7d14be148ea23c83045bc5396744a",
+          "md5": "fa7163ff3eb787f631a2886a9b0756b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.qualitycheck",
+          "module": "quality-check",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "net.sf.uadetector",
+          "module": "uadetector-core",
+          "version": {
+            "requires": "2019.11-Avvo2.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uadetector-json-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "uadetector-json-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 344236,
+          "sha512": "345ed8b4c15dab78335489eac800e37b8353b2778ce13b1de87b19beab11fa1ced8d58ae4ecdcd9cb42f7e7951d246c0550f8815e97399cd3832151c0215c47",
+          "sha256": "e3bfbd96d24e80a9a4bebc6e6937edf2d1d878552807394bee6929df76cb6a9f",
+          "sha1": "8e9b66e50cf7d14be148ea23c83045bc5396744a",
+          "md5": "fa7163ff3eb787f631a2886a9b0756b"
+        }
+      ]
+    }
+  ]
+}

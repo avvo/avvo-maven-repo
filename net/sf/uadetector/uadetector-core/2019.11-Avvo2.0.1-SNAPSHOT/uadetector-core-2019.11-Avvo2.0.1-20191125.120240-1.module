@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.sf.uadetector",
+    "module": "uadetector-core",
+    "version": "2019.11-Avvo2.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "2uoa6imwvnd4lo4tyo7x2wvn44"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.qualitycheck",
+          "module": "quality-check",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "jsr250-api",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uadetector-core-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "uadetector-core-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 187896,
+          "sha512": "22c9845d319d37b33a0d86ff675d358a782e9b4c982dd5e7ed1e9efa4537acb6029aeb75e1f95933781ff4258ccf60d5226db7714333339228adb37d11852695",
+          "sha256": "d4358240db05f90af3f8d7808f774af16281e7a2480e31710053cb9412f04802",
+          "sha1": "9fe88862776bf17cccb24fe3213c1fe2ddd0caec",
+          "md5": "516ddbc8240c1c52f82c898dd002d7df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.qualitycheck",
+          "module": "quality-check",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "jsr250-api",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uadetector-core-2019.11-Avvo2.0.1-SNAPSHOT.jar",
+          "url": "uadetector-core-2019.11-Avvo2.0.1-20191125.120240-1.jar",
+          "size": 187896,
+          "sha512": "22c9845d319d37b33a0d86ff675d358a782e9b4c982dd5e7ed1e9efa4537acb6029aeb75e1f95933781ff4258ccf60d5226db7714333339228adb37d11852695",
+          "sha256": "d4358240db05f90af3f8d7808f774af16281e7a2480e31710053cb9412f04802",
+          "sha1": "9fe88862776bf17cccb24fe3213c1fe2ddd0caec",
+          "md5": "516ddbc8240c1c52f82c898dd002d7df"
+        }
+      ]
+    }
+  ]
+}

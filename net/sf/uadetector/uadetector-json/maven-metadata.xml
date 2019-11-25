@@ -3,9 +3,11 @@
   <groupId>net.sf.uadetector</groupId>
   <artifactId>uadetector-json</artifactId>
   <versioning>
+    <latest>2019.11-Avvo2.0.1-SNAPSHOT</latest>
     <versions>
       <version>0.1.23-Avvo2.0.0-SNAPSHOT</version>
+      <version>2019.11-Avvo2.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190923083658</lastUpdated>
+    <lastUpdated>20191125120240</lastUpdated>
   </versioning>
 </metadata>
